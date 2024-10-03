@@ -17,7 +17,7 @@ export default function Footer() {
         <span>
           <a href="tel:+2348145789624">+234 8145789624</a>
         </span>
-        <span>Anchor university, ayobo alimosho l.g.a, lagos 100276</span>
+        <span>Anchor University, ayobo alimosho l.g.a, lagos 100276</span>
         <span>
           <a href="mailto:dlcfaul@gmail.com">dlcfaul@gmail.com</a>
         </span>
