@@ -11,7 +11,7 @@ export default function Footer() {
     <div className="bg-[#01015E] text-white text-[12px] w-full p-20 grid md:grid-cols-2 lg:grid-cols-6 gap-8">
       <div className="flex uppercase flex-col gap-6 col-span-2">
         <span className="text-[18px] font-semibold">
-          DLCF Anchor University
+          DLCF Anchor University, Lagos.
         </span>
         <span>&copy; copyright DLCFAUL {year}</span>
         <span>
