@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col gap-6 col-span-2">
         <span className="uppercase text-[21px] font-semibold">
-          subscribe to get latest updates and news
+          Subscribe to get Latest Updates and News
         </span>
         <div className="flex border border-white/15 p-2 rounded-xl">
           <Input
