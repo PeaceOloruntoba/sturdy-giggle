@@ -53,7 +53,7 @@ export default function Footer() {
         <div className="flex border border-white/15 p-2 rounded-xl items-center justify-between">
           <Input
             inputClassName={
-              "bg-transparent font-[400] h-full p-2 focus:outline-none w-full"
+              "bg-transparent text-xl font-[400] h-full p-2 focus:outline-none w-full"
             }
             type={"email"}
             placeholder="dlcfaul@gmail.com"
