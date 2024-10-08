@@ -50,10 +50,10 @@ export default function Footer() {
         <span className="uppercase text-[21px] font-semibold">
           Subscribe to get Latest Updates and News
         </span>
-        <div className="flex border border-white/15 p-2 rounded-xl">
+        <div className="flex border border-white/15 p-2 rounded-xl items-center justify-between">
           <Input
             inputClassName={
-              "bg-transparent font-[400] h-full p-2 focus:outline-none"
+              "bg-transparent font-[400] h-full p-2 focus:outline-none w-full"
             }
             type={"email"}
             placeholder="dlcfaul@gmail.com"
