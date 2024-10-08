@@ -10,7 +10,9 @@ export default function Rootlayout() {
         <Navbar />
       </div>
       <Outlet />
+      <div className="w-screen">
       <Footer />
+      </div>
     </div>
   );
 }
