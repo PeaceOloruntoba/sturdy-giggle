@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Input() {
+export default function Input({inputClassName, placeholder, type='text'}) {
   return (
-    <input type="email" placeholder='Enter your email address' className='outline-none bg-transparent text-xl' />
+    <input type={type} placeholder={placeholder} className={inputClassName} />
   )
 }
