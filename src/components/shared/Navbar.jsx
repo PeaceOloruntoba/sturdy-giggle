@@ -2,13 +2,14 @@ import React from "react";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import { logo } from "../../assets";
+import HamburgerMenu from "./HamburgerMenu";
 
 export default function Navbar() {
   return (
     <div className="flex items-center justify-between w-full">
-      <div className="flex items-center">
+      <div className="flex items-center gap-8">
         <img src={logo} alt="Logo" />
-        <div className="flex items-center uppercase text-white font-semibold gap-8 text-[14px] md:text-[18px]">
+        <div className="items-center md:flex hidden uppercase text-white font-semibold gap-8 text-[14px] md:text-[18px]">
           <Link to="/">Home</Link>
           <Link to="/about">About us</Link>
           <Link to="/sermon">Sermon</Link>
@@ -16,7 +17,7 @@ export default function Navbar() {
           <Link to="/blog">Blog</Link>
         </div>
       </div>
-      <Link to="/contact">
+      <Link to="/contact" className="md:block hidden">
         <Button
           value={"Contact Us"}
           className={
@@ -24,6 +25,9 @@ export default function Navbar() {
           }
         />
       </Link>
+      <div className="md:hidden block">
+          <HamburgerMenu />
+        </div>
     </div>
   );
 }
