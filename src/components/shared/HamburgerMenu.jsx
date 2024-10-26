@@ -42,7 +42,6 @@ const HamburgerMenu = () => {
       >
         <CgMenuRight className="text-3xl font-semibold" />
       </button>
-
       {isOpen && (
         <div className="fixed top-0 left-0 bottom-0 z-10 bg-opacity-90 w-screen h-screen bg-black/80 text-white font-semibold text-[22px] shadow-lg">
           <button onClick={toggleMenu} className="absolute top-5 right-10">
