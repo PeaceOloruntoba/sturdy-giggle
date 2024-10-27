@@ -32,17 +32,23 @@ export default function Hero() {
         transition: "background-image 1s ease-in-out",
       }}
     >
-      <span>WELCOME TO OUR CHURCH</span>
-      <span>BECOME A PART OF OUR COMMUNITY</span>
-      <span className="flex items-center">
-        <BsDashLg />
-        <span className="ml-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-        </span>
-      </span>
-      <button className="bg-primary mt-4 p-2 rounded text-white">
-        LEARN MORE
-      </button>
+      <div className="w-full bg-[black]/90 p-24 py-56 text-white">
+        <div className="w-full flex flex-col w-1/3 gap-6">
+          <span className="text-2xl font-semibold">WELCOME TO OUR CHURCH</span>
+          <span className="text-5xl font-semibold">
+            BECOME A PART OF OUR COMMUNITY
+          </span>
+          <span className="flex gap-2">
+            <BsDashLg />
+            <span>
+              Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit, sed do.
+            </span>
+          </span>
+          <button className="bg-[#FFA141] px-6 text-[16px] text-black mt-4 p-2 rounded text-white w-fit">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
