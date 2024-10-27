@@ -10,10 +10,10 @@ export default function Rootlayout() {
         <Navbar />
       </div>
       <div className="w-screen pt-20">
-      <Outlet />
+        <Outlet />
       </div>
       <div className="w-screen">
-      <Footer />
+        <Footer />
       </div>
     </div>
   );
