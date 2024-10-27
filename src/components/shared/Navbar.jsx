@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className="flex items-center justify-between w-full">
       <div className="flex items-center gap-8">
         <img src={logo} alt="Logo" />
-        <div className="items-center md:flex hidden uppercase text-white font-semibold gap-8 text-[14px] md:text-[18px]">
+        <div className="items-center md:flex hidden uppercase text-white font-semibold gap-8 text-[14px] md:text-[16px]">
           <Link to="/">Home</Link>
           <Link to="/about">About us</Link>
           <Link to="/sermon">Sermon</Link>
