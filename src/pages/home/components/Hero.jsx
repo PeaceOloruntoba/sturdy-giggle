@@ -1,12 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { BsDashLg } from "react-icons/bs";
+import {
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide5,
+  slide6,
+  slide7,
+} from "../../../assets";
 
 export default function Hero() {
-  const images = [
-    "image1.jpg",
-    "image2.jpg",
-    "image3.jpg",
-  ];
+  const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
@@ -35,7 +40,9 @@ export default function Hero() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
         </span>
       </span>
-      <button className="bg-primary mt-4 p-2 rounded text-white">LEARN MORE</button>
+      <button className="bg-primary mt-4 p-2 rounded text-white">
+        LEARN MORE
+      </button>
     </div>
   );
 }
