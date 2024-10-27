@@ -6,3 +6,4 @@ export { default as slide4 } from "./images/slide4.png";
 export { default as slide5 } from "./images/slide5.png";
 export { default as slide6 } from "./images/slide6.png";
 export { default as slide7 } from "./images/slide7.png";
+export { default as welcomemessage } from "./images/welcomemessage.png";
