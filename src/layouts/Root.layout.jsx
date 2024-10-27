@@ -9,7 +9,9 @@ export default function Rootlayout() {
       <div className="fixed top-0 left-0 py-2 px-6 z-50 bg-black w-full">
         <Navbar />
       </div>
+      <div className="w-screen pt-20">
       <Outlet />
+      </div>
       <div className="w-screen">
       <Footer />
       </div>
