@@ -44,7 +44,7 @@ export default function Hero() {
               Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit, sed do.
             </span>
           </span>
-          <button className="bg-[#FFA141] px-6 text-[16px] text-black mt-4 p-2 rounded text-white w-fit">
+          <button className="bg-[#FFA141] px-6 text-[16px] text-black mt-4 p-2 rounded  w-fit">
             LEARN MORE
           </button>
         </div>
