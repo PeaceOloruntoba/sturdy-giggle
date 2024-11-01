@@ -33,7 +33,7 @@ export default function Hero() {
       }}
     >
       <div className="w-full bg-[black]/70 p-16 py-40 text-white">
-        <div className="w-full flex flex-col w-1/3 gap-6">
+        <div className="w-full flex flex-col mw-1/3 gap-6">
           <span className="text-xl font-semibold">WELCOME TO OUR CHURCH</span>
           <span className="text-4xl font-semibold">
             BECOME A PART OF OUR COMMUNITY
