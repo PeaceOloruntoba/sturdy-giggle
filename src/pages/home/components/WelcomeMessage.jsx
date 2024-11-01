@@ -3,7 +3,7 @@ import { welcomemessage } from "../../../assets";
 
 export default function WelcomeMessage() {
   return (
-    <div className="w-full p-24 grid grid-cols-2 items-center gap-12">
+    <div className="w-full p-12 md:p-24 grid md:grid-cols-2 items-center gap-12">
       <img src={welcomemessage} alt="" className="w-full" />
       <div className="flex flex-col w-full gap-3">
         <span className="text-2xl font-semibold">
