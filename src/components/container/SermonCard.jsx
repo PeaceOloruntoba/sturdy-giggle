@@ -3,7 +3,7 @@ import { sermoncard } from "../../assets";
 
 export default function SermonCard() {
   return (
-    <div className="bg-white rounded text-sm flex flex-col p-px">
+    <div className="bg-white rounded text-sm flex flex-col p-2">
       <img src={sermoncard} alt="" className="rounded-xl" />
       <div className="flex flex-col px-2">
         <span>THE PARABLE OF THE PRODIGAL SON</span>
