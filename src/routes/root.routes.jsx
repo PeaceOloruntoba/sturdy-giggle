@@ -1,3 +1,4 @@
+import About from "../pages/about/About";
 import Home from "../pages/home/Home";
 
 export const rootRoutes = [
@@ -7,7 +8,7 @@ export const rootRoutes = [
   },
   {
     path: "/about",
-    element: <Home />,
+    element: <About />,
   },
   {
     path: "/events",
